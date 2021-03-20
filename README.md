@@ -1,6 +1,6 @@
 # Glassbowl (glassbowl-front)
 
-Glassbowl window manager
+Glassbowl front end
 
 ## Install the dependencies
 ```bash
@@ -12,10 +12,6 @@ npm install
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
 
 ### Build the app for production
 ```bash

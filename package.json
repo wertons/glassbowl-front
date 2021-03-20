@@ -1,19 +1,18 @@
 {
   "name": "glassbowl-front",
   "version": "0.0.1",
-  "description": "Glassbowl window manager",
+  "description": "Glassbowl front end",
   "productName": "Glassbowl",
   "author": "wertons <paubestardsatorra@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"Default command\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "quasar": "^1.0.0",
-    "quasar-cli": "^0.17.26"
+    "quasar": "^1.0.0"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0"
