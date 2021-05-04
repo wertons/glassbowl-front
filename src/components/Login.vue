@@ -30,7 +30,7 @@
 
 <script>
   import axios from 'app/node_modules/axios';
-  import backendUrl from '../globals.js';
+  import {backendUrl} from 'app/src/globals';
   export default {
     name: 'Login',
     data() {
@@ -41,8 +41,7 @@
     },
     methods: {
       submitLogin: function (ev) {
-          console.log(backendUrl);
-        axios.post('http://localhost:8080/register', {
+        axios.post('http://localhost:8080/login', {
             username : this.username,
             password : this.password
         }).

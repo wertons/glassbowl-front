@@ -36,29 +36,34 @@
     </q-drawer>
 
     <q-page-container>
-      <div @click="login = true">test</div>
+      <q-btn @click="login = true">log in</q-btn>
+      <q-btn @click="register = true">register</q-btn>
 
       <router-view />
     </q-page-container>
       <q-dialog v-model="login" persistent>
         <Login />
       </q-dialog>
+       <q-dialog v-model="register" persistent>
+        <register />
+      </q-dialog>
   </q-layout>
 </template>
 
 <script>
-import Login from 'components/Login.vue'
-
+import Login from 'components/Login.vue';
+import Register from 'components/Register.vue';
 
 
 
 export default {
   name: 'MainLayout',
-  components: {  Login },
+  components: { Login , Register},
   data () {
     return {
       leftDrawerOpen: false,
-      login: false
+      login: false,
+      register: false
     }
   }
 }
