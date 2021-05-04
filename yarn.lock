@@ -6575,6 +6575,13 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
+quasar-app-extension-vuelidate-rules@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/quasar-app-extension-vuelidate-rules/-/quasar-app-extension-vuelidate-rules-0.3.2.tgz#eb58ed00f053137e4e5743e9e6be6dc15828b1ce"
+  integrity sha512-xkv0EM7RzJ0OIlaXHM/0l0Q4oe7qRI0/Ar9dFRhcO1GBFH2SZPFxvoOfcUhUosD5YoaUa+RUgAcxmTLrEjjMwQ==
+  dependencies:
+    vuelidate "^0.7.5"
+
 quasar@^1.0.0:
   version "1.15.12"
   resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.15.12.tgz#eaf8e19cbf43d8a367a7ac031f1390541f0ec582"
@@ -8155,6 +8162,11 @@ vue@2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
+
+vuelidate@^0.7.5, vuelidate@^0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/vuelidate/-/vuelidate-0.7.6.tgz#84100c13b943470660d0416642845cd2a1edf4b2"
+  integrity sha512-suzIuet1jGcyZ4oUSW8J27R2tNrJ9cIfklAh63EbAkFjE380iv97BAiIeolRYoB9bF9usBXCu4BxftWN1Dkn3g==
 
 vuex@3.6.0:
   version "3.6.0"
