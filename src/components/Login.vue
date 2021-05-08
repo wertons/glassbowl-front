@@ -48,9 +48,10 @@
           password: this.password
         }).
         then(function (response) {
-          console.log(JSON.parse(response));
-          if (response.status == 200) {
-            localStorage.setItem("utoken", response.data.token);
+          if (response) {
+            if (response.status == 200) {
+              localStorage.setItem("utoken", response.data.token);
+            }
           }
         });
       },

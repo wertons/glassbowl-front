@@ -80,7 +80,6 @@
           nickname: nick
         }).
         then(function (response) {
-          console.log(JSON.parse(response))
         });
       },
       required: function (ev) {
